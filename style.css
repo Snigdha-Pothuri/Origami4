@@ -1,0 +1,44 @@
+h1 {
+    color : blue; 
+     } 
+    * {
+   border: outset ;
+   border-color: violet;
+   }    
+   .header {
+    background-color: palegreen; 
+    display: flex;
+    justify-content: space-between; 
+    border-radius: 30px;
+   } 
+   .menu {
+    background-color: yellow;
+    border-radius: 30px;
+   }
+
+  .grid :hover {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width:200px; 
+    margin: 30;  
+    background-color:#00FFFF;
+    transform : scale(1.2);
+  } 
+
+  .footer {
+    display: flex; 
+    justify-content: flex-end;
+    transform : scale(1.2);
+  } 
+  p,h2 {
+    text-align: center;  
+  } 
+  .item {
+    border-radius: 30px; 
+  }
+  body {
+  background-color: fuchsia;
+  background-image: url("b1.jpg");
+  background-size: 100% 100%; 
+  }
